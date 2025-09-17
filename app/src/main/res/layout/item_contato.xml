@@ -16,11 +16,13 @@
             android:id="@+id/img_perfil"
             android:layout_width="0dp"
             android:layout_height="180dp"
+            android:background="#C56A6A"
+            android:backgroundTint="#9E4D4D"
             android:scaleType="centerCrop"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_launcher_background"
             app:layout_constraintEnd_toEndOf="parent"
-            android:src="@drawable/ic_launcher_background" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/txv_nome"
@@ -28,11 +30,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="Alessandro"
+            android:text="Contato"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/img_perfil"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_perfil" />
 
         <TextView
             android:id="@+id/txv_whatsapp"

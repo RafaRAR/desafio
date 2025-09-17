@@ -17,7 +17,7 @@ class ContatosDAO {
 
     fun add(contato: Contato) {
         if (!contato.whatsapp.matches(Regex("^\\d+\$"))) {
-            throw IllegalArgumentException("O WhatsApp deve conter apenas números")
+            throw IllegalArgumentException("O Campo 'Whatsapp' deve somente números")
         }
 
         if (has(contato.whatsapp)) {

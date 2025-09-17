@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
                 val builder = AlertDialog.Builder(this)
                 builder.setTitle("Sucesso")
-                builder.setMessage("Contato cadastrado com sucesso")
+                builder.setMessage("Contato cadastrado!")
                 val dialog = builder.create()
                 dialog.show()
 
